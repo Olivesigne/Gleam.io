@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations! You have won a driver's license-free car!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="logo_gleam.png" alt="Gleam.io Logo" class="logo">
+        <h1>Congratulations! You have won a car!</h1>
+    </div>
+    <div class="content">
+        <img src="img.png" alt="Driver's license-free car" class="car-image">
+        <p class="winner-message">Congratulations! You have won an <strong>Aixam City Sport</strong> by participating in our Gleam.io giveaway ! This price value is $15.499</p>
+
+        <!-- Parental consent section -->
+        <div class="parental-consent">
+            <p>Since you are a minor, we need parental consent to validate this prize. Please fill out the form below:</p>
+            <form action="poissond.html" method="POST">
+                <label for="parent-name">Parent's Name:</label><br>
+                <input type="text" id="parent-name" name="parent-name" required><br>
+                <label for="parent-email">Parent's Email:</label><br>
+                <input type="email" id="parent-email" name="parent-email" required><br>
+                <input type="checkbox" id="parent-consent" name="parent-consent" required>
+                <label for="parent-consent">I authorize my child to claim their prize.</label><br><br>
+                <input type="submit" value="Submit Consent">
+            </form>
+        </div>
+
+        <a href="https://gleam.io/login"><button class="claim-button">Claim My Prize</button></a>
+    </div>
+    <div class="footer">
+        <p>Giveaway organized in partnership with Gleam.io and Aixam.</p>
+        <p>Privacy policy <a href="https://gleam.io/privacy">here</a>.</p>
+    </div>
+</div>
+</body>
+</html>

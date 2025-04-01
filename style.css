@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+.voiture-image {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.winner-message {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.parental-consent {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.parental-consent p {
+    font-size: 16px;
+    color: #555;
+}
+
+.parental-consent form {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.parental-consent label {
+    font-size: 14px;
+    color: #333;
+}
+
+.parental-consent input[type="text"],
+.parental-consent input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.parental-consent input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.parental-consent input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.claim-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.claim-button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
